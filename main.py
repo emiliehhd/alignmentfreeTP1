@@ -46,12 +46,10 @@ if __name__ == "__main__":
         for j in range(i+1, len(files)):
 
             print("\nStart comparison : ", filenames[i], "and", filenames[j])
-            print(i, j)
             start_time = time.time()
 
             dist_jaccard = jaccard(files[filenames[i]], files[filenames[j]], k)
 
-            # Pour une comparaison de l'espece i et j : donne la distance de jaccar
             print(filenames[i], filenames[j], dist_jaccard)
             df_jaccard[filenames[i]][filenames[j]] = dist_jaccard
 
