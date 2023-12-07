@@ -17,8 +17,7 @@ def load_fna(filename):
                     texts.append("".join(txt))
                 txt = []
             else:
-                # txt.append(line.strip().replace('M', '').replace('Y', '').replace('R', '').replace('W', ''))
-                txt.append(''.join(c for c in line if c in alphabet))
+                txt.append(''.join(c for c in line if c in alphabet))   #to remove letters that are not in the alphabet
 
     if len(txt) > 0:
         texts.append("".join(txt))
@@ -40,14 +39,5 @@ def load_directory(directory):
 
 
 if __name__ == "__main__":
-    # files = load_directory("data")                  #me : its a dict
-    # files_name = [file for file in files.keys()]
-    # print(len(files[files_name[0]]))                #me : each file has 2 sequences
-    # print(len(files[files_name[0]][1]))
-    # print(files[files_name[0]][1])
-    # print(files_name)
-    # print(files.keys())
-
-    #### les tests pour enlever les Y et les M
-    out = load_fna("testttt.txt")
-    print(out)
+    files = load_directory("data")
+    # print(len(files))
