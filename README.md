@@ -12,7 +12,7 @@ En observant les distances obtenues, que pouvez-vous dire des espèces présente
 
 ## Résultats
 
-Temps d'éxécution :
+Temps d'éxécution : 187 seconds
 
 Espace mémoire maximale :
 
