@@ -76,3 +76,9 @@ Espace mémoire maximale :
 ## INTERPRETATION
 
 Lorsque la distance de jaccard est élevée entre deux espèces, cela signifie que celles-ci ont beaucoup de kmers en commun et donc que leurs génomes partagent beaucoup de similarité. Nous pouvons voir que c'est le cas pour la comparaison 1 et 10. Notamment, pour la comparaison 1 où la distance de jaccard est de 0.93776 et donc ces 2 espèces sont les plus similaires. Nous pouvons émettre l'hypothèse que ces deux espèces sont proches phygénétiquement et ont un ancêtre commun récent. Alors que pour les autres espèces avec une distance faible, celles-ci partagent probablement un ancêtre commun plus éloigné.
+
+
+# TME 2 : with heapq
+## Results
+
+![image](https://github.com/emiliehhd/alignmentfreeTP1/assets/151454222/b52d07c2-008a-4941-824a-94990f4f3ac8)
