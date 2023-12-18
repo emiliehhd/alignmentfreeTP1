@@ -82,3 +82,6 @@ Lorsque la distance de jaccard est élevée entre deux espèces, cela signifie q
 ## Results
 
 ![image](https://github.com/emiliehhd/alignmentfreeTP1/assets/151454222/b52d07c2-008a-4941-824a-94990f4f3ac8)
+
+![image](https://github.com/emiliehhd/alignmentfreeTP1/assets/151454222/1f7f633b-0a7d-4547-9bc0-a81d6160a1de)
+
